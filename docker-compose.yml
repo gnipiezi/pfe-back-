@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  frontend:
+    build:
+      context: ./boaa-frontend/
+    ports:
+      - "3010:5000"
+  backend:
+    build: .
+    ports:
+    - "8000:8000"
+    volumes:
+      - ./boaa/db.sqlite3:/boaa/boaa/db.sqlite3

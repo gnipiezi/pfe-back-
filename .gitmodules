@@ -1,0 +1,3 @@
+[submodule "boaa-frontend/boaa_frontend"]
+	path = boaa-frontend/boaa_frontend
+	url = https://github.com/DigitalSuxess/boaa_frontend.git
